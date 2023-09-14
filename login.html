@@ -25,10 +25,10 @@
                      md:text-xl">Enter your details below</h2>
                 </div>
                 
-                <form action="/" class="text-xs text-gray-400 w-[90%]">
+                <form action="/" class="text-xs text-gray-400 w-[90%]" id="login-form">
                     <div>
-                        <p class="py-1 px-1">Email</p> <input type="text" class=" h-5 w-[100%] sm:h-6 sm:w-[65%] rounded-lg">
-                        <p class="py-2 px-1">Password</p> <input type="text" class="h-5 w-[100%] sm:h-6 sm:w-[65%] rounded-lg">
+                        <p class="py-1 px-1">Email</p> <input type="text" class=" h-5 w-[100%] sm:h-6 sm:w-[65%] rounded-lg" id="email">
+                        <p class="py-2 px-1">Password</p> <input type="text" class="h-5 w-[100%] sm:h-6 sm:w-[65%] rounded-lg" id="password">
                     </div>
 
                     <div class="flex flex-row justify-end w-[100%] sm:w-[65%]">
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="py-1">
-                        <button type="submit" class="text-gray-100 border border-amber-400 bg-amber-400 h-8 w-28 rounded-lg  ">Sign in</button>
+                        <button type="submit" class="text-gray-100 border border-amber-400 bg-amber-400 h-8 w-28 rounded-lg  " id="submitbtn">Sign in</button>
                         <p class="pt-1 text-gray-400">Not a member? <span class="underline"><a href="/signup.html">Create your account</a></span></p>
                     </div>
                 </form>
@@ -159,6 +159,6 @@
             </div>
         </div>
     </div>
-    
+<script src="/login.js"></script>
 </body>
 </html>
