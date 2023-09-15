@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BOXX Membership Platform.</title>
+</head>
+<body>
+    <div id="parentpage" class="md:flex md:flex-row max-h-screen">
+        <div id="leftside" class=" md:w-full  h-screen  ">
+            <div class="h-3/5 bg-black" >
+                <div class="relative bg-center bg-no-repeat bg-cover md:bg-contain md:bg-top h-full " style="background-image: url(/assets/loginpage\ background.png);">
+                    <!-- <img src="/assets/loginpage background.png" alt=""> -->
+
+                    <div class="absolute bottom-10 left-5">
+                        <h2 class="text-white font-semibold text-2xl px-5 ">Welcome to the membership platform, Let's get you started on a digitally safe day.</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" bg-black flex flex-col justify-start px-16 w-full  ">
+                <div class="w-[90%] ">
+                    <h2 class="text-lg font-semibold py-2 text-white sm:font-semibold sm:text-small
+                     md:text-xl">Enter your details below</h2>
+                </div>
+                
+                <form action="/" class="text-xs text-gray-400 w-[90%]" id="login-form">
+                    <div>
+                        <p class="py-1 px-1">Email</p> <input type="text" class=" h-5 w-[100%] sm:h-6 sm:w-[65%] rounded-lg" id="email">
+                        <p class="py-2 px-1">Password</p> <input type="text" class="h-5 w-[100%] sm:h-6 sm:w-[65%] rounded-lg" id="password">
+                    </div>
+
+                    <div class="flex flex-row justify-end w-[100%] sm:w-[65%]">
+                        <p class="py-1">
+                            <a href="">Forgot Password?</a>
+                        </p>
+                    </div>
+
+                    <div class="py-1">
+                        <button type="submit" class="text-gray-100 border border-amber-400 bg-amber-400 h-8 w-28 rounded-lg  " id="submitbtn">Sign in</button>
+                        <p class="pt-1 text-gray-400">Not a member? <span class="underline"><a href="/signup.html">Create your account</a></span></p>
+                    </div>
+                </form>
+
+                <footer class="w-[100%] flex flex-row justify-end ">
+                    <img src="/assets/boxx logo.png" alt="" class="w-[14%]  pb-1">
+                </footer>
+            </div>
+        </div>
+
+        <div class=" hidden md:block md:overflow-y-scroll">
+            <div class="py-7 px-7">
+                <h2 class="text-2xl font-semibold text-gray-800">What's Included:</h2>
+            </div>
+
+            <div class="m-auto mx-auto w-[90%] space-y-4">
+                <div class="py-4 flex flex-row flex-wrap ">
+                    <div class="basis-1/4 px-1 ">
+                        <img src="assets/container1.png" alt="">
+                    </div>  
+
+                    <div class="basis-3/4 px-4 text-gray-700 ">
+                        <div class="">
+                            <h2 class="text-base font-semibold pb-2">Emergency Room</h2>
+                            <hr class="py-2">
+                        </div>
+
+                        <div class=" text-sm font-semibold text-gray-500 ">
+                            <p>Think you've been hacked? The Emergency Room has got you covered for the next steps.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-4 flex flex-row flex-wrap ">
+                    <div class=" basis-1/4 px-1">
+                        <img src="assets/container2.png" alt="">
+                    </div>
+
+                    <div class="basis-3/4 px-4 text-gray-700">
+                        <div class="">
+                            <h2 class="text-base font-semibold pb-2">Cyber Novices</h2>
+                            <hr class="py-2">
+                        </div>
+
+                        <div class=" text-sm font-semibold text-gray-500">
+                            <p>New to the cyber security world? Learn tips and tricks from top experts at BOXX.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pb-4 flex flex-row flex-wrap ">
+                    <div class="basis-1/4 px-1">
+                        <img src="assets/container3.png" alt="">
+                    </div>
+
+                    <div class="basis-3/4 px-4 text-gray-700">
+                        <div class="">
+                            <h2 class="text-base font-semibold pb-2">Personal data breaches</h2>
+                            <hr class="py-2">
+                        </div>
+
+                        <div class="text-sm font-semibold text-gray-500">
+                            <p>Scan for online breaches with our dark web monitoring service and learn what to do next.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-4 flex flex-row flex-wrap ">
+                    <div class="basis-1/4 px-1">
+                        <img src="assets/container4.png" alt="">
+                    </div>
+
+                    <div class=" basis-3/4 px-4 text-gray-700">
+                        <div class="">
+                            <h2 class="text-base font-semibold pb-2">BOXX newsroom</h2>
+                            <hr class="py-2">
+                        </div>
+
+                        <div class="text-sm font-semibold text-gray-500">
+                            <p>Stay up-to-date with the latest news in cyber safety and security with the resource center.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-4 flex flex-row flex-wrap ">
+                    <div class="basis-1/4 px-1">
+                        <img src="assets/container5.png" alt="">
+                    </div>
+
+                    <div class="basis-3/4 px-4 text-gray-700">
+                        <div class="">
+                            <h2 class="text-base font-semibold pb-2">CyberBOXX junior</h2>
+                            <hr class="py-2">
+                        </div>
+
+                        <div class="text-sm font-semibold text-gray-500">
+                            <p>Teach your kids about the cyber safety with easy to follow activities and videos that are suitable for the whole family.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="py-4 flex flex-row flex-wrap ">
+                    <div class="basis-1/4 px-1">
+                        <img src="assets/container6.png" alt="">
+                    </div>
+
+                    <div class="basis-3/4 px-4 text-gray-700">
+                        <div class="">
+                            <h2 class="text-base font-semibold pb-2">BOXX travelling overseas</h2>
+                            <hr class="py-2">
+                        </div>
+
+                        <div class="text-sm font-semibold text-gray-500">
+                            <p>Vacation stress free. Learn how to protect yourself digitally before and during your travels.</p>
+                        </div >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="/login.js"></script>
+</body>
+</html>
